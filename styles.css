@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'myfont';
+    src: url(fonts/GrandifloraOne-Regular.ttf) format('truetype');
+}
+
+
+body {
+    font-family: "myfont";
+}
