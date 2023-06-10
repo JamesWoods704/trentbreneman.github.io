@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'myfont';
+    src: url(fonts/GrandifloraOne-Regular.ttf) format('truetype');
+}
+*{
+	text-decoration: none;
+}
+body {
+	font-family: "myfont";
+	color: beige;
+	background-color: black;
+}
+@media only screen and (max-width: 1000px) {
+	.project-container {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+a {
+	text-decoration: none;
+	color: beige;
+}
+h1 {
+	font-size: 80px;
+}
+h2 {
+	font-size: 50px;
+}
+.hero {
+	height: 100vh;
+	font-size: 35px;
+}
+.hero-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+}
+li {
+	text-decoration: none;
+	color: beige;
+}
+.hero-text {
+	margin-left: 30px;
+}
+.social {
+	margin: 10px;
+}
+.sec {
+	display: flex;
+	justify-content: space-around;
+	padding: 70px;
+}
+.sec-projects{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.portrait {
+	display: flex;
+	align-items: center;
+}
+.projects {
+	display: flex;
+	justify-content: space-around;
+}
+.project-container{
+	width: 200px;
+	height: 500px;
+	box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.248);
+}
